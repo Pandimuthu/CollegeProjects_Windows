@@ -8,7 +8,8 @@ GO
 Create Table [Hospital Management].dbo.Roles(
 ID int Identity(1,1) Primary Key,
 [User Name] varchar(30) Not null,
-[Password] varchar(max) Not null
+[Password] varchar(max) Not null,
+[RoleType] varchar(10) Not null
 );
 
 GO
