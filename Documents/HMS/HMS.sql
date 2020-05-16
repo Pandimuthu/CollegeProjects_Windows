@@ -4,6 +4,7 @@ If DB_ID('Hospital Management') is not null
 
 Create Database [Hospital Management]
 GO
+use [Hospital Management]
 
 Create Table [Hospital Management].dbo.Roles(
 ID int Identity(1,1) Primary Key,
@@ -20,7 +21,7 @@ Age int,
 Gender varchar(10) Not null,
 [Address] varchar(255),
 Email varchar(50),
-[Contact No] int,
+[Contact No] bigint,
 [Specialist In] varchar(10),
 Salary varchar(20)
 );
